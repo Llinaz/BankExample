@@ -7,11 +7,14 @@ public class CalculatePerimetrs {
         System.out.println("Perimetr triangle = " + PerimeterTriangle(sideLengthTriangle));
         System.out.println("Perimetr square = " + PerimeterSquare(sideLengthSquare));
         System.out.println("Perimetr circle = " + PerimeterCircle(radius));
+
     }
 
     public static int PerimeterTriangle(int length) {
         int P = 3 * length;
         return P;
+
+
     }
 
     public static int PerimeterSquare(int length) {
